@@ -41,6 +41,22 @@ to {opacity: 1}
   .prev, .next,.text {font-size: 11px}
 }
 /* banner end here*/
-.left-sidebar{float: left;width: 100%; padding: 40px; background-color:#b0b0b0; box-sizing: border-box;}
-.right-sidebar{float: left;width: 100%; padding: 40px; background-color:#bbbaba; box-sizing: border-box;}
+/* left sitebar start here*/
+.left-sidebar{float: left;width: 100%; padding: 20px; background-color:#f0f0f0; box-sizing: border-box;border:1px solid #ddd;}
+.category ul {  padding-left: 0px; list-style: none;}
+.category ul .categorylist{padding:10px 0;border-bottom: 1px solid #dddddd;}
+.category ul .categorylist a:hover{text-decoration: none;}
+.category ul .categorylist a{color: #888888;font-size: 13px;}
+.heading h3{margin-top: 0px; margin-bottom: 0;}
+.heading{padding: 0 0 10px 0;border-bottom: 1px solid #dddddd;}
+.main-container {  width: 100%;  float: left;  padding: 20px 0; margin-left: 0 !important; margin-right: 0 !important;}
+.main-container .padding-left-0{padding-left:0;}
+.main-container .padding-right-0{padding-right:0;}
+/* left sitebar end here*/
+/* right sitebar start here*/
+.right-sidebar{float: left;width: 100%; padding: 20px; background-color:#f0f0f0; box-sizing: border-box;border:1px solid #ddd;}
+.product-list{float: left;width: 100%; padding: 20px 0;}
+.product{float: left;width: 100%;}
+.product-img img {  width: 100%;  float: left;}
+/* right sitebar end here*/
 footer{float: left;width: 100%; padding: 20px; box-sizing: border-box; background-color: #c5c4c4;}
