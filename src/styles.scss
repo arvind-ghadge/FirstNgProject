@@ -42,7 +42,7 @@ to {opacity: 1}
 }
 /* banner end here*/
 /* left sitebar start here*/
-.left-sidebar{float: left;width: 100%; padding: 20px; background-color:#f0f0f0; box-sizing: border-box;border:1px solid #ddd;}
+.left-sidebar{float: left;width: 100%; padding: 20px; background-color:#ffffff; box-sizing: border-box;border:1px solid #ddd;}
 .category ul {  padding-left: 0px; list-style: none;}
 .category ul .categorylist{padding:10px 0;border-bottom: 1px solid #dddddd;}
 .category ul .categorylist a:hover{text-decoration: none;}
@@ -54,13 +54,15 @@ to {opacity: 1}
 .main-container .padding-right-0{padding-right:0;}
 /* left sitebar end here*/
 /* right sitebar start here*/
-.right-sidebar{float: left;width: 100%; padding: 20px; background-color:#f0f0f0; box-sizing: border-box;border:1px solid #ddd;}
+.right-sidebar{float: left;width: 100%; padding: 20px; background-color:#ffffff; box-sizing: border-box;border:1px solid #ddd;}
 .product-list{float: left;width: 100%; padding: 20px 0;}
 .product{float: left;width: 100%;}
 .product-img img {  width: 100%;  float: left;}
 .main-product {  border: 1px solid #cccccc; width: 100%; float: left;}
-.product-details{float:left;width:100%;padding-right:30px; padding-left:30px; padding-bottom:20px;}
-.product-heading h3 { font-size:16px; font-family:arial;}
+.product-details{float:left; width:100%; padding-right:20px; padding-left:20px; padding-bottom:20px;}
+.product-heading h3 { font-size:16px; font-family: sans-serif; font-weight: 600;}
 .product-heading{float: left;width: 100%;}
+.product-details .product-heading p { font-size:12px; color:#aeb4b6; margin-bottom:16px; float:left; width:100%; font-family:"Poppins", sans-serif;}
+.product-details .product-heading p i {  margin-right: 4px;  font-size: 14px;  margin-left: 0;  position: relative;  top: 1px;}
 /* right sitebar end here*/
 footer{float: left;width: 100%; padding: 20px; box-sizing: border-box; background-color: #c5c4c4;}
