@@ -1,4 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('http://static-reality.inwavethemes.com/wp-content/cache/autoptimize/css/autoptimize_bbc8dead2997f999ff21f6767b8b660c.css');
+body{background-color: #f6f7f9; font-family: sans-serif !important;}
 /* header start here*/
 header{ width:100%; float:left; padding:20px;}
 .nav {    overflow: hidden;    background-color: #333;  }  
@@ -7,7 +9,7 @@ header{ width:100%; float:left; padding:20px;}
 .nav a.active {    background-color: #4CAF50;    color: white;}
 /* header end here*/
 /* banner start here*/
-.banner{float:left; width:100%; background-color: #c3c2c2; padding: 20px; box-sizing: border-box;}
+.banner{float:left; width:100%; padding: 20px; box-sizing: border-box;}
 .mySlides {display: none}
 img {vertical-align: middle;}
 .fade{opacity: 1 !important;}
@@ -54,15 +56,17 @@ to {opacity: 1}
 .main-container .padding-right-0{padding-right:0;}
 /* left sitebar end here*/
 /* right sitebar start here*/
-.right-sidebar{float: left;width: 100%; padding: 20px; background-color:#ffffff; box-sizing: border-box;border:1px solid #ddd;}
+.right-sidebar{float: left;width: 100%; padding: 0px; background-color:#ffffff; box-sizing: border-box;border:0px solid #ddd;}
 .product-list{float: left;width: 100%; padding: 20px 0;}
 .product{float: left;width: 100%;}
-.product-img img {  width: 100%;  float: left;}
+.product-img img {  width: 100%;  float: left; height: 250px;}
 .main-product {  border: 1px solid #cccccc; width: 100%; float: left;}
-.product-details{float:left; width:100%; padding-right:20px; padding-left:20px; padding-bottom:20px;}
-.product-heading h3 { font-size:16px; font-family: sans-serif; font-weight: 600;}
+.product-details{float:left; width:100%; padding-right:15px; padding-left:15px; padding-bottom:15px;}
+.product-heading h3 { font-size:17px; font-family: sans-serif; font-weight: 600;color:#5277a3}
 .product-heading{float: left;width: 100%;}
-.product-details .product-heading p { font-size:12px; color:#aeb4b6; margin-bottom:16px; float:left; width:100%; font-family:"Poppins", sans-serif;}
+.product-details .product-heading p { font-size:13px; color:#aeb4b6; margin-bottom:16px; float:left; width:100%; font-family:"Poppins", sans-serif;}
 .product-details .product-heading p i {  margin-right: 4px;  font-size: 14px;  margin-left: 0;  position: relative;  top: 1px;}
+.property-address i{color: #f26c61;}
+.property-address{line-height:1.85;}
 /* right sitebar end here*/
 footer{float: left;width: 100%; padding: 20px; box-sizing: border-box; background-color: #c5c4c4;}
