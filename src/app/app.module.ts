@@ -8,6 +8,7 @@ import { BannerComponent } from './banner/banner.component';
 import { LeftSidebarComponent } from './left-sidebar/left-sidebar.component';
 import { RightSidebarComponent } from './right-sidebar/right-sidebar.component';
 import { FooterComponent } from './footer/footer.component';
+import { DetailsComponent } from './details/details.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FooterComponent } from './footer/footer.component';
     BannerComponent,
     LeftSidebarComponent,
     RightSidebarComponent,
-    FooterComponent
+    FooterComponent,
+    DetailsComponent
     
   ],
   imports: [

@@ -69,4 +69,18 @@ to {opacity: 1}
 .property-address i{color: #f26c61;}
 .property-address{line-height:1.85;}
 /* right sitebar end here*/
-footer{float: left;width: 100%; padding: 20px; box-sizing: border-box; background-color: #c5c4c4;}
+footer{float: left;width: 100%; padding: 20px; box-sizing: border-box; background-color: #333;}
+.footer{width:100%; margin: 0 auto; float:none; max-width: 1170px;}
+.footer .footer-menu ul{list-style: none;}
+.footer .footer-menu ul li{float:left; width:auto; border-right:0px solid #ccc;}
+.footer .footer-menu ul li a{border-right:1px solid #cccccc;padding:0 10px; color: #ffffff;}
+.details{width: 100%; float: none; max-width: 1200px; margin:0 auto;}
+.property-featured { margin-top:50px; background-color:#ffffff; padding:20px;}
+.property-featured .btn{ border:1px dashed #cccccc; margin:0 10px 0 0;}
+.card-list .card-body, .card-title, .card-text{ text-align: center;}
+.card-text i{margin-right: 10px;}
+.card.mb-4 {  background-color: #ffffff;}
+.margin-t-50px{ margin-top:50px;}
+.warning{background-color:#f6f7f9;}
+/*.warning th{background-color: #f6f7f9 !important;  border-bottom: 0px !important;}
+.warning td{background-color: #f6f7f9 !important;  border-bottom: 0px !important;}*/
