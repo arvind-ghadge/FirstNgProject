@@ -75,12 +75,30 @@ footer{float: left;width: 100%; padding: 20px; box-sizing: border-box; backgroun
 .footer .footer-menu ul li{float:left; width:auto; border-right:0px solid #ccc;}
 .footer .footer-menu ul li a{border-right:1px solid #cccccc;padding:0 10px; color: #ffffff;}
 .details{width: 100%; float: none; max-width: 1200px; margin:0 auto;}
-.property-featured { margin-top:50px; background-color:#ffffff; padding:20px;}
+.property-featured { margin-top:50px; background-color:#ffffff; padding:20px; margin-bottom: 30px;}
 .property-featured .btn{ border:1px dashed #cccccc; margin:0 10px 0 0;}
 .card-list .card-body, .card-title, .card-text{ text-align: center;}
 .card-text i{margin-right: 10px;}
 .card.mb-4 {  background-color: #ffffff;}
 .margin-t-50px{ margin-top:50px;}
 .warning{background-color:#f6f7f9;}
+.Features-property .iwp-property-block-content ul {  list-style: none;  display: inline-block;  margin: 0;  padding: 0;}
+.Features-property .iwp-property-block-content ul li {  float: left;  width: 25%;}
+.Features-property .iwp-property-block-content ul li i {  padding: 0 10px 0 0;}
+.property {  margin-bottom: 25px; background-color: #ffffff;}
+.property .right-heading{padding-top: 1px;}
+.property .right-heading h3{font-size: 15px; font-weight: 600; text-align: center;}
+.property .btn {  font-size: 12px;}
+.property .padding-right-0{padding-right: 0px; padding-left: 32px;}
+.schedule-form {  float: left;  background-color: #ffffff;  padding: 15px;  width: 100%; margin-bottom: 30px;}
+.bs-example{  margin: 0px; border: 1px dashed #cccccc;}
+.card-header h2{margin-top: 0; margin-bottom: 0;}
+.accordion .fa{  margin-right: 0.5rem;}
+.btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus{outline: 0px auto -webkit-focus-ring-color !important;}
+.show{padding: 0px;}
+button.btn.btn-link {  padding-left: 0;}
+div#accordionExample {  padding: 10px;}
+.schedule-form .btn-link:hover, .btn-link:focus{text-decoration: none;}
+.schedule-form .btn-link{text-decoration: none;}
 /*.warning th{background-color: #f6f7f9 !important;  border-bottom: 0px !important;}
 .warning td{background-color: #f6f7f9 !important;  border-bottom: 0px !important;}*/
