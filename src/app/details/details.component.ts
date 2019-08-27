@@ -13,9 +13,14 @@ export class DetailsComponent implements OnInit {
   }
 
   propertyDetail:any = [
-    {name:"Condo for Rent in City Center"},
-    {address:"Property Detail"},
-    {tag:["Condo","6 Beds","6 Baths","3 Garages","1100 SqFt"]},
+    {name:"Condo for Rent in City Center",address:"2643 W Chicago Ave, Chicago, IL, USA"},
+    {tag:[{
+      condo:"Condo",
+      bed:"6 Beds",
+      bathroom:"6 Baths",
+      garage:"3 Garages",
+      dimension:"1100 SqFt"}]
+    },
     {propDetail:[
       {propertyID:"HI-IW-CO-88",propertyType:"Condo", propertyStatus:"For Rent"}
     ]},

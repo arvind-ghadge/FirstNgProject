@@ -15,9 +15,9 @@
                         </div>
                         <div class="page-title">
                           <div class="iw-heading-title">
-                            <h1 itemprop="name">{{propertyDetail[0].name}}</h1>
+                            <h1 itemprop="name" *ngFor="let item of propertyDetail">{{item.name}}</h1>
                               <span class="property-address"><i class="ion-ios-location"></i>
-                                <span itemprop="address">2643 W Chicago Ave, Chicago, IL, USA</span>
+                                <span itemprop="address"  *ngFor="let item of propertyDetail">{{item.address}}</span>
                               </span>
                             </div>
                           </div>
@@ -45,11 +45,11 @@ $1,000															<span class="price-postifx">/we</span></div></div></div>
   <div class="col-md-8 col-sm-8">
     <div class="property-featured">
       <div class="categories">
-        <span class="btn btn-light"><i class="fa fa-bars"></i> Condo</span>
-        <span class="btn btn-light"><i class="fa fa-bars"></i> 6 Beds</span>
+        <span class="btn btn-light" *ngFor="let item of propertyDetail"><i class="fa fa-bars"></i> {{item.tag.condo}}</span>
+        <!-- <span class="btn btn-light"><i class="fa fa-bars"></i> 6 Beds</span>
         <span class="btn btn-light"><i class="fa fa-bars"></i> 6 Baths</span>
         <span class="btn btn-light"><i class="fa fa-bars"></i> 3 Garages</span>
-        <span class="btn btn-light"><i class="fa fa-bars"></i> 1100 SqFt</span>
+        <span class="btn btn-light"><i class="fa fa-bars"></i> 1100 SqFt</span> -->
       </div>    
     <div class="iwp-single-property-description" itemprop="description">
       <p>I just hit a lot of land plots in the high tide station near Lidico North of National Highway 32, area 75m2 and 80m2, price 54 million / m2 legal clarity because the source is auctioned Public listing is transparent throughout the city (2050 plan) directly to the people (those who pay a high price will be awarded the lot after 30 days after the full red book) land in time For long term use, this area is located just outside the urban area, so all amenities of the city such as schools, shopping centers, swimming pools and fitness centers are not available. 50 m, sidewalks 7 m, convenient to open office, business, electricity and water, water, Song Da water, 4 Tram stop and administrative center district 200 meters, This is a good investment opportunity before the district becomes a district, the number of land lots is not much, the vip, high level environment, fresh air rare where there is such as fins, because the new auction So the price is right now.</p><p>Since I am the owner so the buyer does not have to spend office brokerage costs and the two sides notarized purchase immediately without waiting, building houses always.<br>
