@@ -22,10 +22,10 @@ export class DetailsComponent implements OnInit {
       dimension:"1100 SqFt"}]
     },
     {propDetail:[
-      {propertyID:"HI-IW-CO-88",propertyType:"Condo", propertyStatus:"For Rent"}
+      {propertyID:"HI-IW-CO-88", propertyType:"Condo", propertyStatus:"For Rent", Bedrooms:4, Bathrooms:5}
     ]},
     {addDetail:[
-      {propertyID:"HI-IW-CO-88",propertyType:"Condo", propertyStatus:"For Rent"}
+      {Garage:6, AreaSize:"1200 SqFt", LandSize:"1600 SqFt", GarageSize:"300 SqFt", YearBuilt:2017}
     ]}
   ]
 

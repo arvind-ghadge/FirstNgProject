@@ -44,13 +44,22 @@ $1,000															<span class="price-postifx">/we</span></div></div></div>
 <div class="">
   <div class="col-md-8 col-sm-8">
     <div class="property-featured">
-      <div class="categories">
-        <span class="btn btn-light" *ngFor="let item of propertyDetail.tag"><i class="fa fa-bars"></i> {{item.condo}}</span>
-        <!-- <span class="btn btn-light"><i class="fa fa-bars"></i> 6 Beds</span>
+      
+      <div class="categories" *ngFor="let detail of propertyDetail">
+        <div *ngFor="let item of detail.tag">
+            <span class="btn btn-light" ><i class="fa fa-bars"></i> {{item.condo}}</span>
+            <span class="btn btn-light" ><i class="fa fa-bars"></i> {{item.bed}}</span>
+            <span class="btn btn-light" ><i class="fa fa-bars"></i> {{item.bathroom}}</span>
+            <span class="btn btn-light" ><i class="fa fa-bars"></i> {{item.garage}}</span>
+            <span class="btn btn-light" ><i class="fa fa-bars"></i> {{item.dimension}}</span>
+        </div>
+        
+        
+        <!--<span class="btn btn-light"><i class="fa fa-bars"></i> 6 Beds</span>
         <span class="btn btn-light"><i class="fa fa-bars"></i> 6 Baths</span>
         <span class="btn btn-light"><i class="fa fa-bars"></i> 3 Garages</span>
-        <span class="btn btn-light"><i class="fa fa-bars"></i> 1100 SqFt</span> -->
-      </div>    
+        <span class="btn btn-light"><i class="fa fa-bars"></i> 1100 SqFt</span>-->
+      </div>
     <div class="iwp-single-property-description" itemprop="description">
       <p>I just hit a lot of land plots in the high tide station near Lidico North of National Highway 32, area 75m2 and 80m2, price 54 million / m2 legal clarity because the source is auctioned Public listing is transparent throughout the city (2050 plan) directly to the people (those who pay a high price will be awarded the lot after 30 days after the full red book) land in time For long term use, this area is located just outside the urban area, so all amenities of the city such as schools, shopping centers, swimming pools and fitness centers are not available. 50 m, sidewalks 7 m, convenient to open office, business, electricity and water, water, Song Da water, 4 Tram stop and administrative center district 200 meters, This is a good investment opportunity before the district becomes a district, the number of land lots is not much, the vip, high level environment, fresh air rare where there is such as fins, because the new auction So the price is right now.</p><p>Since I am the owner so the buyer does not have to spend office brokerage costs and the two sides notarized purchase immediately without waiting, building houses always.<br>
       Contact: InwaveThemes 0913380081.</p>
@@ -63,30 +72,30 @@ $1,000															<span class="price-postifx">/we</span></div></div></div>
             </div>
             </div>
         <div class="col-md-6 col-sm-6">            
-            <table class="table">
-                <tbody>
+            <table class="table" *ngFor="let Detail of propertyDetail">
+                <tbody *ngFor="let item of Detail.propDetail">
                   <tr class="warning">
                     <td>Property ID:</td>
-                    <td>HI-IW-CO-88</td>                    
-                  </tr>                
+                    <td>{{item.propertyID}}</td>
+                  </tr>
                   <tr>
                     <td>Property Type:</td>
-                    <td>Condo</td>
+                    <td>{{item.propertyType}}</td>
                     
                   </tr>      
                   <tr class="warning">
                     <td>Property Status:</td>
-                    <td>For Rent</td>
+                    <td>{{item.propertyStatus}}</td>
                     
                   </tr>
                   <tr class="">
                     <td>Bedrooms:</td>
-                    <td>6</td>
+                    <td>{{item.Bedrooms}}</td>
                     
                   </tr>
                   <tr class="warning">
                     <td>Bathrooms:</td>
-                    <td>6</td>
+                    <td>{{item.Bathrooms}}</td>
                     
                   </tr>
                   
@@ -94,30 +103,30 @@ $1,000															<span class="price-postifx">/we</span></div></div></div>
               </table>
         </div>
         <div class="col-md-6 col-sm-6">
-            <table class="table">
-                <tbody>
+            <table class="table" *ngFor="let Detail of propertyDetail">
+                <tbody *ngFor="let item of Detail.addDetail">
                     <tr class="warning">
                         <td>Garage:</td>
-                        <td>3</td>    
+                        <td>{{item.Garage}}</td>    
                     </tr>                                      
                     <tr>
                         <td>Area Size:</td>
-                        <td>1100 SqFt</td>
+                        <td>{{item.AreaSize}}</td>
                         
                       </tr>     
                   <tr class="warning">
                     <td>Land Size:</td>
-                    <td>700 SqFt</td>
+                    <td>{{item.LandSize}}</td>
 
                   </tr>
                   <tr class="">
                     <td>Garage Size:</td>
-                    <td>150 SqFt</td>
+                    <td>{{item.GarageSize}}</td>
 
                   </tr>
                   <tr class="warning">
                     <td>Year Built:</td>
-                    <td>2014</td>
+                    <td>{{item.YearBuilt}}</td>
                     
                   </tr>
                   
