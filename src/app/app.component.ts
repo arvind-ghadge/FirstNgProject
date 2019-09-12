@@ -1,19 +1,23 @@
 import { Component, OnInit } from '@angular/core';
 import { NewserviceService } from './newservice.service';
 import { HeroListService } from './services/herolist.service';
+import { ContentListService } from './new-services/contentlist.service';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
-  providers: [NewserviceService, HeroListService]
+  providers: [NewserviceService, HeroListService, ContentListService]
 })
 export class AppComponent implements OnInit {
   title = 'app works';
   myTitle:any;
   text:any;
-  constructor( private _newservice:NewserviceService ){
-    
+  heroes;
+  contentList;
+  constructor( private _newservice:NewserviceService, private herolistService:HeroListService, private contentlistService:ContentListService ){
+    this.heroes = this.herolistService.getData();
+    this.contentList = this.contentlistService.getData();
   }
   
 
