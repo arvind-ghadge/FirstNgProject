@@ -1,5 +1,25 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div class="main container">
+  <div class="Register">
+    <table class="table table-sm">
+      <thead>
+        <tr>
+          <th scope="col">Id</th>
+          <th scope="col">Name</th>
+          <th scope="col">Address</th>
+          <th scope="col">Gender</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let heroe of heroes">
+          <th scope="row">{{heroes.id}}</th>
+          <td>{{heroes.Name}}</td>
+          <td>{{heroes.Address}}</td>
+          <td>{{heroes.Gender}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 <h2>{{text}}</h2>
 <h2>{{heroes}}</h2>
 <h2>{{contentList}}</h2>

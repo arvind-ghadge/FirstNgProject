@@ -16,7 +16,7 @@ export class AppComponent implements OnInit {
   heroes;
   contentList;
   constructor( private _newservice:NewserviceService, private herolistService:HeroListService, private contentlistService:ContentListService ){
-    this.heroes = this.herolistService.getData();
+    this.heroes = this.herolistService.getAllStudents();
     this.contentList = this.contentlistService.getData();
   }
   
