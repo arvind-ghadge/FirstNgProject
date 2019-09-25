@@ -27,8 +27,7 @@ export class AppComponent implements OnInit {
   }
   
   
-  ngOnInit(){
-    this.students = this._studentListService.getAllStudents();
+  ngOnInit(){    
     this.text=this._newservice.display();
   }
 

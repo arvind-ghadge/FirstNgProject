@@ -9,6 +9,7 @@ import { LeftSidebarComponent } from './left-sidebar/left-sidebar.component';
 import { RightSidebarComponent } from './right-sidebar/right-sidebar.component';
 import { FooterComponent } from './footer/footer.component';
 import { DetailsComponent } from './details/details.component';
+import { FeedbackComponent } from './feedback/feedback.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { DetailsComponent } from './details/details.component';
     LeftSidebarComponent,
     RightSidebarComponent,
     FooterComponent,
-    DetailsComponent
+    DetailsComponent,
+    FeedbackComponent
     
   ],
   imports: [
